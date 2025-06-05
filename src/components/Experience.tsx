@@ -1,7 +1,7 @@
 import { VscChip } from "react-icons/vsc";
 import { LuBrainCircuit } from "react-icons/lu";
 import{motion, useScroll, useTransform} from "framer-motion"
-import { useRef, useLayoutEffect, useState } from "react";
+import { useRef } from "react";
 
 const Experience = () => {
     const containerRef = useRef<HTMLDivElement>(null);
