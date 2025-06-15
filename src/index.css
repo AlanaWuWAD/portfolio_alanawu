@@ -63,3 +63,14 @@ html, body{
   .animate-glow-move {
     animation: glow-move infinite ease-in-out alternate;
   }
+
+  .fade-edges{
+  mask-image: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 1) 60px,
+    rgba(222, 17, 17, 0) 100%
+  );
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+  }

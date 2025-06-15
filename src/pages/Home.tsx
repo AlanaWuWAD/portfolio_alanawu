@@ -2,7 +2,7 @@ import About from "../components/About"
 import Contact from "../components/Contact"
 import Experience from "../components/Experience"
 import Introduction from "../components/Introduction"
-import Menu from "../components/Menu"
+import Project from "../components/Project"
 import Skills from "../components/Skills"
 
 const Home = () => {
@@ -12,8 +12,8 @@ const Home = () => {
         <About />
         <Skills />
         <Experience />
+        <Project />
         <Contact />
-        <Menu />
     </>
   )
 }

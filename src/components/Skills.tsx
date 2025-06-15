@@ -29,9 +29,9 @@ const qaSkillIcons = {
 
 const Skills = () => {
   return (
-    <div id="skills" className="flex flex-col justify-center items-center gap-5 m-10"> 
-        <h2 className="flex-2 text-xl pl-3">[ Skills ]</h2>
-        <h3 className="uppercase text-4xl">My Advantages</h3>
+    <div id="skills" className="flex flex-col gap-5"> 
+        <h2 className="text-xl pl-3">[ Skills ]</h2>
+        <h3 className="uppercase text-4xl text-center">My Advantages</h3>
         <section className="relative flex justify-between w-11/12 h-100 gap-5 m-15">
             <div className="skill-card relative left-15 top-0 flex flex-1 flex-col gap-10">
                 <div className="absolute top-10 ellipse"></div>

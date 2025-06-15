@@ -32,13 +32,13 @@ const Experience = () => {
         {/* Sticky icon */}
             <motion.div 
             style={{y}}
-            className="absolute top-[80px] w-15 h-15 rounded-full bg-slate-200 border-4 border-black left-[41%] z-10 -translate-x-1/2 ring-2 ring-stone-500/20 shadow-[0_0_30px_5px_rgba(122,222,200,0.3)] ">
-                <img src="/circle-removebg-preview.png" className="w-full h-full object-contain" />
+            className="absolute top-[80px] w-15 h-15 rounded-full bg-slate-300 border-4 border-black left-[41%] z-10 -translate-x-1/2 ring-2 ring-stone-500/20 shadow-[0_0_30px_5px_rgba(122,222,200,0.3)] ">
+                <img src="/portfolio_alanawu/circle-removebg.png" className="w-full h-full object-contain " />
             </motion.div>
 
         {/* contents  */}
             <div className="flex justify-around p-5">
-                <p className="basis-1/3 m-10 text-xl font-bold leading-loose"><span className=" text-stone-400">| Sep. 2024 - Aug. 2025 </span><br/> Cornerstone International Community College of Canada </p>
+                <p className="basis-1/3 m-10 text-2xl font-bold leading-loose"><span className=" bg-stone-800 py-1 px-1.5 text-xl ">| Sep. 2024 - Aug. 2025 </span><br/> Cornerstone International Community College of Canada </p>
                 <div className="basis-1/2  m-10 leading-relaxed">
                     <h3 className="text-3xl pb-3 font-bold">Full Stack Developer - As a student !</h3>
                     <p className="text-xl text-gray-300">Developed web applications using JavaScript, React.js. Implemented RESTful APIs and integrated with MySql databases. Collaborated with stakeholders to define project requirements and timelines.</p>
@@ -46,7 +46,7 @@ const Experience = () => {
             </div>
 
             <div className="flex justify-around p-5">
-                <p className="basis-1/3 m-10 text-xl font-bold leading-loose"><span className="text-stone-400">| Mar. 2018 - Apr. 2024 </span><br/>MEDIATEK Inc. </p>
+                <p className="basis-1/3 m-10 text-2xl font-bold leading-loose"><span className="bg-stone-800 py-1 px-1.5 text-xl ">| Mar. 2018 - Apr. 2024 </span><br/>MEDIATEK Inc. </p>
                 <div className="basis-1/2 text-xl m-10 leading-relaxed">
                     <h3 className="text-3xl pb-3 font-bold">Software Quality Assurance Engineer</h3>
                     <fieldset className="flex flex-col justify-start text-xl space-y-3 text-gray-300">
@@ -58,7 +58,7 @@ const Experience = () => {
             </div>
 
             <div className="flex justify-around p-5">
-                <p className="basis-1/3 m-10 text-xl font-bold leading-loose"><span className=" text-stone-400">| Oct. 2015 - Mar. 2018</span><br/>FOXCONN Inc. </p>
+                <p className="basis-1/3 m-10 text-2xl font-bold leading-loose"><span className=" bg-stone-800 py-1 px-1.5 text-xl ">| Oct. 2015 - Mar. 2018</span><br/>FOXCONN Inc. </p>
                 <div className="basis-1/2 text-xl m-10 leading-relaxed">
                     <h3 className="text-3xl pb-3 font-bold">Hardware Engineer</h3>
                     <fieldset className="flex flex-col justify-start text-xl space-y-3 text-gray-300">
@@ -70,7 +70,7 @@ const Experience = () => {
             </div>
             
                <div className="flex justify-around p-5">
-                <p className="basis-1/3 m-10 text-xl font-bold leading-loose"><span className=" text-stone-400">| Oct. 2015</span><br/>National Yang Ming Chiao Tung University</p>
+                <p className="basis-1/3 m-10 text-2xl font-bold leading-loose"><span className=" bg-stone-800 py-1 px-1.5 text-xl ">| Oct. 2015</span><br/>National Yang Ming Chiao Tung University</p>
                 <div className="basis-1/2 text-xl m-10 leading-relaxed">
                     <h3 className="text-3xl pb-3 font-bold">Master Degree</h3>
                     <fieldset className="text-xl text-gray-300">
