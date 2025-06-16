@@ -1,6 +1,6 @@
 const GlowMovingDots = () => {
   return (
-    <div className="relative w-full h-screen bg-black overflow-hidden">
+    <div className="relative w-full h-full bg-black overflow-hidden">
       {[...Array(5)].map((_, i) => (
         <div
           key={i}

@@ -6,18 +6,18 @@ import { MdArrowOutward } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div id="contact" className="flex justify-around items-center w-full h-24 border-y border-gray-800 p-10">
-        <div className="flex-2">
+    <div id="contact" className="flex flex-col md:flex-row gap-1.5 md:justify-around justify-center items-center w-full md:h-24 border-y border-gray-800 p-10">
+        <div className="flex-2 flex justify-start gap-3">
           <h3 className="text-sm text-gray-300 mb-1">Email Me</h3>
           <p className="font-bold text-xl mb-1 text-white">alanawu@gmail.com</p>
         </div>
 
-        <div className="flex-2">
+        <div className="flex-2 flex justify-start gap-3">
           <h3 className="text-sm text-gray-300 mb-1">Location</h3>
-          <p className="font-bold text-xl mb-1 text-white">609 W Hastings St, Vancouver, BC V6B 4W4</p>
+          <p className="font-bold text-lg mb-1 text-white">609 W Hastings St, Vancouver, BC V6B 4W4</p>
         </div>
 
-        <div className="flex-1 flex justify-end">
+        <div className="flex-1 flex justify-end pb-3 md:pb-0">
           <a href="/portfolio_alanawu/contact" className="group relative flex items-center gap-2 underline underline-offset-8 decoration-1 decoration-white hover:decoration-black px-4 py-1 rounded overflow-hidden text-white hover:text-white hover:bg-gray-700 cursor-pointer "><span className="transition-colors duration-300 group-hover:text-black ">Contact Me </span><MdArrowOutward className="transition-transform duration-200 group-hover:text-black group-hover:scale-125 delay-100 "/></a>
         </div>
 

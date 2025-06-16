@@ -33,7 +33,7 @@ const Layout = () => {
       <footer>
         <Footer />
       </footer>
-      <Menu visible={showMenu}/> 
+      <Menu visible={showMenu} /> 
     </div>
   );
 };
